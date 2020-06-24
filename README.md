@@ -1,18 +1,3 @@
-# Github Resume Generator
-
-Github Resume Generator, is an application that lets you generate resumes based on a given GitHub user profile.
-
-### Note to the reviewer
-I was still a bit confused of the requested field `[REPO RIGHTS]`. In the brief it says:
-
-“ A list of the most popular repositories of the github account owner with title, repository description and the amount of stars and forks “
-
-Which I interpret as, I shall query for user repositories where the queried user is the owner of the repositories, ie `type=owner`. Thus the `[REPO RIGHTS]` equals to “OWNER” always. 
-
-Tho, if I would query for user repositories where type=all, I could receive repositories where the user is not the owner but a collaborator.
-
-I didn’t pursue with follow-up clarification, as I think this is rather minor detail. In reality, I would have done so.
-
 ## How to run locally
 
 1. Clone this repository

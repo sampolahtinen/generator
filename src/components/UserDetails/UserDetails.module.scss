@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+@import '../../styles/typography';
+
+.userDetails {
+  .subtitle {
+    color: $grey_300;
+    font-weight: $lightest;
+    font-size: $font-size_28;
+  }
+}

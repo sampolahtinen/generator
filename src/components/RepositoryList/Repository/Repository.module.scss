@@ -1,0 +1,37 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
+.repository {
+  margin-bottom: 4rem;
+
+  .flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .greyText {
+    color: $grey_300;
+  }
+
+  .language,
+  .description,
+  .information {
+    display: block;
+    margin-bottom: 1.6rem;
+  }
+
+  .year {
+    color: $grey_300;
+  }
+
+  .githubLink {
+    margin: 0;
+    display: inline;
+  }
+
+  hr {
+    margin-top: 4rem;
+    border: $border_bottom;
+  }
+}

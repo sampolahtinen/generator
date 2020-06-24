@@ -1,0 +1,81 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+@import '../../styles/breakpoints';
+
+.resumeGenerator {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1095px;
+  background-color: white;
+  padding: 5rem 10rem;
+  background-color: $white;
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  z-index: $z-index_top;
+
+  h3 {
+    margin: 2rem 0;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input {
+    display: inline-block;
+    background: transparent;
+    width: 60%;
+    border: unset;
+    border-bottom: $border_bottom;
+    font-size: 16px;
+    height: 4.5rem;
+    margin-right: 2.4rem;
+
+    &::placeholder {
+      color: $grey_200;
+    }
+  }
+
+  button {
+    background: $red;
+    display: inline-block;
+    border-radius: 2rem;
+    font-size: 16px;
+    width: 27rem;
+    height: 4.5rem;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    transition: all 300ms ease-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.4);
+
+    &:hover {
+      background: darken($red, 5%);
+    }
+
+    &:active {
+      background: darken($red, 20%);
+    }
+  }
+}
+
+@media screen and (max-width: $break-phone) {
+  .resumeGenerator {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    margin: 3.2rem 0;
+    width: 100%;
+    text-align: center;
+  }
+}

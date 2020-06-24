@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "coverage/**",
+      "src/**/*.spec.ts"
+    ]
+  },
+  "jsRules": true,
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "arrow-return-shorthand": true,
+    "class-name": true,
+    "deprecation": true,
+    "interface-over-type-literal": true,
+    "newline-before-return": true,
+    "no-console": true,
+    "no-invalid-template-strings": true,
+    "no-unnecessary-initializer": true,
+    "no-unused-variable": true,
+    "object-curly-spacing": [true, "always"],
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "space-in-parens": [true, "never"],
+    "ter-newline-after-var": [true, "always"],
+    "ter-padded-blocks": [true, { "blocks": "never", "classes": "never" }],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "whitespace": false
+  },
+  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}

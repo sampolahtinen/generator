@@ -1,0 +1,9 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.languageList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 16px;
+  list-style-type: none;
+}

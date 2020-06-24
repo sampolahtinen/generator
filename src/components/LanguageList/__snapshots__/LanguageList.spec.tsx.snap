@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageList Component renders 1`] = `
+<div
+  className="languageList"
+>
+  <Language
+    key="JavaScript"
+    percentage={50}
+    title="JavaScript"
+  />
+  <Language
+    key="CSS"
+    percentage={50}
+    title="CSS"
+  />
+</div>
+`;

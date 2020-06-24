@@ -1,0 +1,15 @@
+
+.DS_Store
+
+.env
+
+.vscode/launch.json
+
+.vscode/settings.json
+
+node_modules/
+coverage/
+src/generated/
+
+build/*
+node_modules

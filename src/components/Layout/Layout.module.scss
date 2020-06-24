@@ -1,0 +1,17 @@
+@import '../../styles/colors.scss';
+@import '../../styles/breakpoints.scss';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 30rem 5rem 30rem;
+  margin: auto;
+  background-color: $grey_100;
+
+  @media screen and (max-width: $break-desktop) {
+    padding: 0 2rem 5rem 2rem;
+  }
+}

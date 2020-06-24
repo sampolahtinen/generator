@@ -1,0 +1,89 @@
+@import './colors.scss';
+@import './typography.scss';
+@import './breakpoints.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: $font-size_20;
+  font-weight: $light;
+  color: $black;
+  background-attachment: fixed;
+  background-color: $grey_300;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $red;
+}
+
+a:hover {
+  color: $red;
+}
+
+input {
+  border: 0;
+}
+
+h1 {
+  font-size: $font-size_50;
+  font-weight: $boldest;
+  margin: 7rem 0;
+}
+
+h2 {
+  font-size: $font-size_40;
+  font-weight: $boldest;
+}
+
+h3 {
+  font-size: $font-size_28;
+  font-weight: $boldest;
+}
+
+section {
+  margin: 5rem 0;
+}
+
+.highlighted-text {
+  color: $red;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: $break-phone) {
+  html {
+    font-size: 50%;
+  }
+}

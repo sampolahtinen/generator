@@ -1,0 +1,15 @@
+@import '../../../styles/colors.scss';
+
+.language {
+  margin-bottom: 2rem;
+  white-space: nowrap;
+
+  .titleWrapper {
+    margin-bottom: 1.2rem;
+  }
+
+  .percentage {
+    color: $grey_300;
+    margin-left: 0.8rem;
+  }
+}

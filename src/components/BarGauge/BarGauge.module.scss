@@ -1,0 +1,21 @@
+@import '../../styles/colors.scss';
+
+.percentageGauge {
+  position: relative;
+  background: $grey_100;
+  height: 8px;
+  width: 100%;
+  border-radius: 16px;
+
+  span {
+    border-radius: 16px;
+    position: absolute;
+    background-color: $grey_300;
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: 0;
+    opacity: 1;
+    transition: width 300ms linear, opacity 300ms ease 300ms;
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../styles//colors.scss';
+
+.errorMessage {
+  position: relative;
+  border: 1px solid $red;
+  color: $red;
+  padding: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+
+  span {
+    color: $red;
+    text-align: center;
+  }
+}

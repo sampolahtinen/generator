@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeGenerator Component renders 1`] = `
+<div
+  className="resumeGenerator"
+>
+  <h3>
+    Github username
+  </h3>
+  <form
+    aria-label="Input github username"
+  >
+    <label
+      className="hidden"
+      htmlFor="username"
+    >
+      Github username input
+    </label>
+    <input
+      autoComplete="off"
+      autoFocus={true}
+      id="username"
+      name="username"
+      onChange={[Function]}
+      placeholder="John Doe"
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      Generate
+    </button>
+  </form>
+  <span
+    className="highlighted-text"
+  />
+</div>
+`;
